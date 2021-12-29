@@ -25,7 +25,8 @@ class Solution{
 	            }
 	        }
 	    }
-	    return dp[V];
+	    if(dp[V]==-1) return -1;
+	    else return dp[V];
 	    } 
 	  
 };
